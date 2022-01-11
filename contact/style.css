@@ -1,0 +1,116 @@
+/*===========================*/
+/*==	-	by Khechoyan  -	==*/
+/*===========================*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html{
+ 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-synthesis: 1.7em;
+	background-color: #F4F4F4;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+nav{
+	position: fixed;
+	width: 100%;
+	max-width: 100%;
+	background-color: #333;
+	opacity: 80%;
+	color: white;
+}
+nav .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	max-width: 69em;
+	padding: 0px 20px;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+}
+nav ul li a{
+	color: white;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+}
+nav ul li a:hover, nav ul li .current{
+	background-color: #444;
+	color: #f7c08a;
+}
+/*=====================================*/
+
+#form{
+	max-width: 66em;
+	margin: auto;
+	padding-top: 100px;
+}
+#form h1{
+	font-size: 2.5em;
+}
+#form h1 span{
+	color: #f7c08a;
+}
+#form p{
+	padding: 20px 0px;
+}
+#form form input{
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	padding: 5px;
+	border: 1px solid #E1E1E1;
+}
+#form form textarea{
+	border: 1px solid #E1E1E1;
+	resize: none;
+	width: 100%;
+	padding: 5px;
+}
+#form form input[type="submit"]{
+	background-color: #333;
+	color: white;
+	width: initial;
+	padding: 12px 20px;
+	font-size: 1em;
+	border-radius: 5px;
+}
+/*=====================================*/
+#location{
+	background-color: #444;
+	color: white;
+}
+#location .container{
+	width: 69em;
+	margin: auto;
+	padding: 60px 0px;
+	display: flex;
+	justify-content: space-around;
+}
+#location .container .box{
+	text-align: center;
+}
+#location .container .box i{
+	padding-bottom: 7px;
+}
+#location .container .box h3{
+	padding-bottom: 20px;
+}
+
+/*=====================================*/
+
+footer{
+	text-align: center;
+	background-color: #333;
+	color: white;
+	padding: 20px;
+
+}

@@ -1,0 +1,46 @@
+nav .container{
+	max-width: 100%;
+	flex-flow: column;
+}
+nav .container .logo{
+	font-size: 1.2rem;
+}
+nav .container ul{
+	width: 100%;
+	justify-content: space-around;
+}
+nav .container ul li{
+	width: 100%;
+}
+nav .container ul li a{
+	font-size: .7em;
+	width: 100%;
+	padding: 20px 30px;
+}
+#showcase #container{
+	font-size: 1.3em;
+	padding: 0px 20px;
+	width: 100%;
+}
+#showcase #container .showcase-content{
+	padding-top: 4.5rem;
+}
+#showcase #container .showcase-content h1{
+	font-size: 2rem;
+}
+#home-info{
+	display: block;
+}
+#home-info .info-img{
+	display: none;
+}
+#home-info .info-content{
+	width: 100%;
+}
+#feature{
+	flex-flow: column;
+}
+#feature .box{
+	width: 100%;
+	font-size: 1.2em;
+}

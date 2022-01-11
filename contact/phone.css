@@ -1,0 +1,71 @@
+nav .container{
+	max-width: 100%;
+	flex-flow: column;
+}
+nav .container .logo{
+	font-size: 1.2rem;
+}
+nav .container ul{
+	width: 100%;
+	justify-content: space-around;
+}
+nav .container ul li{
+	width: 100%;
+}
+nav .container ul li a{
+	font-size: .7em;
+	width: 100%;
+	padding: 20px 30px;
+}
+
+/*----------------------------------*/
+
+
+#form{
+	padding-top: 140px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 100%;
+}
+#form p{
+	font-size: 1.7em;
+	font-family: monospace;
+}
+#form h1{
+	font-size: 2.2em;
+}
+#form label{
+	font-family: monospace;
+	font-size: 2em;
+}
+#form input, #form textarea{
+	font-size: 1.5em;
+}
+#form form input[type="submit"]{
+	font-size: 2em;
+
+}	
+
+/*----------------------------------*/
+
+#location .container{
+	display: block;
+	width: 100%;
+	padding: 20px;
+}
+#location .container .box{
+	font-size: 1.3em;
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+	border-bottom: 1px solid #222;
+}
+#location .container .box:nth-child(3){
+	border-bottom: 0px;
+}
+#location .container .box h3{
+	padding-bottom: 0px;
+}
+#location .container .box p{
+	font-size: 1.2em;
+}

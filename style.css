@@ -1,0 +1,139 @@
+/*===========================*/
+/*==	-	by Khechoyan  -	==*/
+/*===========================*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html{
+ 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+nav{
+	position: fixed;
+	width: 100%;
+	max-width: 100%;
+	background-color: #333;
+	opacity: 80%;
+	color: white;
+}
+nav .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	max-width: 69em;
+	padding: 0px 20px;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+}
+nav ul li a{
+	color: white;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+}
+nav ul li a:hover, nav ul li .current{
+	background-color: #444;
+	color: #f7c08a;
+}
+#showcase{
+	padding-top: 40px;
+	background: url(img/showcase.jpg) no-repeat center;
+	height: 600px;
+}
+#showcase #container{
+	width: 69em;
+	margin: auto;
+}
+#showcase .showcase-content{
+	color: white;
+	text-align: center;
+	padding-top: 170px;
+}
+#showcase .showcase-content h1{
+	font-size: 60px;
+	line-height: 1.2em;
+}
+#showcase .showcase-content p{
+	padding: 20px 0px;
+}
+.text-primary{
+	color: #f7c08a;
+}
+.btn{
+	display: inline-block;
+	background-color: #333;
+	font-size: 18px;
+	color: white;
+	padding: 13px 20px;
+	border-radius:3% 30%;
+	transition: .3s;
+}
+.btn:hover{
+	background-color: #f7c08c;
+	color: #333;
+	border-radius: 20% 2px;
+}
+#home-info{
+	display: flex;
+	height: 400px;
+}
+#home-info .info-img{
+	width: 50%;
+	min-height: 100%;
+	background: url(img/photo-1.jpg)no-repeat center;
+	background-size: 130%;
+}
+#home-info .info-content{
+	padding-top: 30px;
+	width: 50%;
+	text-align: center;
+	min-height: 100%;
+	background-color: #333;
+	color: white;
+}
+#home-info .info-content p{
+	text-align: justify;
+	padding: 20px;
+}
+.btn-ligth{
+	background-color: #f7c08c;
+	color: #333;
+	transition: .3s;
+}
+.btn-ligth:hover{
+	color: #f7c08c;
+	background-color: #f4f4f4;
+	border-radius: 20% 2px;
+}
+#feature{
+	display: flex;
+}
+.box{
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+}
+.bg-primary{
+	background-color: #f7c08c;
+	color: #111;
+}
+.bg-ligth{
+	background-color: #f4f4f4;
+	color: #333;
+}
+footer{
+	text-align: center;
+	background-color: #333;
+	color: white;
+	padding: 20px;
+
+}

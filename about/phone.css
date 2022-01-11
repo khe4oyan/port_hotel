@@ -1,0 +1,57 @@
+nav .container{
+	max-width: 100%;
+	flex-flow: column;
+}
+nav .container .logo{
+	font-size: 1.2rem;
+}
+nav .container ul{
+	width: 100%;
+	justify-content: space-around;
+}
+nav .container ul li{
+	width: 100%;
+}
+nav .container ul li a{
+	font-size: .7em;
+	width: 100%;
+	padding: 20px 30px;
+}
+#header{
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+}
+#header h1{
+	margin-top: 45px;
+	text-align: center;
+}
+#header .container{
+	padding-top: 15px;
+	max-width: 100%;
+}
+#header .container .pBox p{
+	font-size: 1.2em;
+	text-align: justify;
+	padding-right: 25px;
+}
+#header .container img{
+	border-radius: 0;
+}
+.container > img{
+	display: none;
+}
+#persons h1{
+	padding-top: 10px;
+	font-size: 3em;
+}
+#persons .person{
+	width: 100%;
+	display: grid;
+}
+#persons .person img{
+	display: none;
+}
+#persons .person p{
+	font-size: 1.3em;
+}
